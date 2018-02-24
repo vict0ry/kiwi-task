@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.date-picker{
+  width: 100%; 
+  padding: 5px; 
+  border: none; 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.87); 
+  margin-top: 13px;
+}
+.date-picker:hover {
+  border-bottom: 2px solid black;
+}
+.react-datepicker__input-container{
+  display:block;
+}
+.container{
+  width:80%;
+  margin: 0 auto;
+}
+.App-header{
+  background:#c3dce0;
+  height: 150px;
+  padding: 20px;
+  color: #3ea094;
+}
+.center {
+  margin:0 auto;
+  text-align:center;
+}
+.lookup-item {
+  height: 100px;
+}
+.flyItem:hover {
+  border-bottom:2px solid #3ea094;
+}
